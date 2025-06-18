@@ -1,0 +1,23 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+ }
+
+.view_point{
+    
+    Width: 950px;
+    height: 500px;
+    overflow: auto;
+}
+

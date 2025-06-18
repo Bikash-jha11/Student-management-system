@@ -1,0 +1,44 @@
+.container {
+  min-height: 8vh;
+
+  box-sizing: border-box;
+}
+
+.main {
+
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.left_section p {
+  font-size: 24px;
+  place-items: center;
+  font-weight: 500;
+  color: rgb(2, 10, 46);
+}
+
+.middle_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  padding: 10px;
+}
+
+.middle_section p {
+  font-weight: 500;
+}
+
+.right_section button {
+  background-color: rgb(35, 106, 242);
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  border-radius: 8px;
+  border:none;
+}
